@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ActPreciosTacos.Datos
+{
+    public interface IConsultasSSDatos
+    {
+        bool pruebaConn();
+
+        string getFecha();
+
+        List<Modelos.Productos> obtieneProductos();
+    }
+}

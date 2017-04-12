@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActPreciosTacos", "ActPreciosTacos.csproj", "{4B97BE5A-65ED-472C-9CA2-4C023F16D544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DescargaPrecioTacos", "..\DescargaPrecioTacos\DescargaPrecioTacos.csproj", "{719B99F0-A85D-4BB2-A056-4FB34F2687FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B97BE5A-65ED-472C-9CA2-4C023F16D544}.Debug|x86.ActiveCfg = Debug|x86
+		{4B97BE5A-65ED-472C-9CA2-4C023F16D544}.Debug|x86.Build.0 = Debug|x86
+		{4B97BE5A-65ED-472C-9CA2-4C023F16D544}.Release|x86.ActiveCfg = Release|x86
+		{4B97BE5A-65ED-472C-9CA2-4C023F16D544}.Release|x86.Build.0 = Release|x86
+		{719B99F0-A85D-4BB2-A056-4FB34F2687FB}.Debug|x86.ActiveCfg = Debug|x86
+		{719B99F0-A85D-4BB2-A056-4FB34F2687FB}.Debug|x86.Build.0 = Debug|x86
+		{719B99F0-A85D-4BB2-A056-4FB34F2687FB}.Release|x86.ActiveCfg = Release|x86
+		{719B99F0-A85D-4BB2-A056-4FB34F2687FB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
