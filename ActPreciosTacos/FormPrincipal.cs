@@ -188,7 +188,10 @@ namespace ActPreciosTacos
                 // obtiene los articulos seleccionadas del grid de articulos
                 List<Modelos.Productos> seleccionados = ((List<Modelos.Productos>)this.gridView2.DataSource).Where(w => w.seleccionado == false).Select(s => s).ToList();
 
-                if (seleccionados.Count == 0) return;
+                if (seleccionados.Count == 0)
+                    if (((List<Modelos.Productos>)this.gridView2.DataSource).Count > 1) return;
+                    else
+                        this.gcProdAct.DataSource = new List<Modelos.Productos>();
 
                 this.gcProdAct.DataSource = null;
                 this.gcProdAct.DataSource = seleccionados;

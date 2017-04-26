@@ -28,11 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             this.btnActPendientes = new System.Windows.Forms.Button();
             this.gcProductos = new DevExpress.XtraGrid.GridControl();
-            this.productosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.productosBindingSource = new System.Windows.Forms.BindingSource();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colbloque = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colclave = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -91,6 +90,7 @@
             // 
             // colbloque
             // 
+            this.colbloque.Caption = "Bloque";
             this.colbloque.FieldName = "bloque";
             this.colbloque.Name = "colbloque";
             this.colbloque.Visible = true;
@@ -98,6 +98,7 @@
             // 
             // colclave
             // 
+            this.colclave.Caption = "Clave";
             this.colclave.FieldName = "clave";
             this.colclave.Name = "colclave";
             this.colclave.Visible = true;
@@ -105,6 +106,7 @@
             // 
             // colproducto
             // 
+            this.colproducto.Caption = "Producto";
             this.colproducto.FieldName = "producto";
             this.colproducto.Name = "colproducto";
             this.colproducto.Visible = true;
@@ -112,6 +114,7 @@
             // 
             // colprecio
             // 
+            this.colprecio.Caption = "Precio";
             this.colprecio.FieldName = "precio";
             this.colprecio.Name = "colprecio";
             this.colprecio.Visible = true;

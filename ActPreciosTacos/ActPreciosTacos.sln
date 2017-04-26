@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActPreciosTacos", "ActPreci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DescargaPrecioTacos", "..\DescargaPrecioTacos\DescargaPrecioTacos.csproj", "{719B99F0-A85D-4BB2-A056-4FB34F2687FB}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "actPreciosTacosSetup", "..\actPreciosTacosSetup\actPreciosTacosSetup.vdproj", "{640FC8A5-F774-4521-8202-96663334610C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "desPreciosTacosSetup", "..\desPreciosTacosSetup\desPreciosTacosSetup.vdproj", "{111067FE-AC8D-4003-BCB0-DF19B5E919EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +23,10 @@ Global
 		{719B99F0-A85D-4BB2-A056-4FB34F2687FB}.Debug|x86.Build.0 = Debug|x86
 		{719B99F0-A85D-4BB2-A056-4FB34F2687FB}.Release|x86.ActiveCfg = Release|x86
 		{719B99F0-A85D-4BB2-A056-4FB34F2687FB}.Release|x86.Build.0 = Release|x86
+		{640FC8A5-F774-4521-8202-96663334610C}.Debug|x86.ActiveCfg = Debug
+		{640FC8A5-F774-4521-8202-96663334610C}.Release|x86.ActiveCfg = Release
+		{111067FE-AC8D-4003-BCB0-DF19B5E919EA}.Debug|x86.ActiveCfg = Debug
+		{111067FE-AC8D-4003-BCB0-DF19B5E919EA}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

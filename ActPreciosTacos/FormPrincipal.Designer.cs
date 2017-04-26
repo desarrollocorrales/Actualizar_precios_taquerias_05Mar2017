@@ -141,7 +141,7 @@
             this.btnCargaArtSoftRe.Name = "btnCargaArtSoftRe";
             this.btnCargaArtSoftRe.Size = new System.Drawing.Size(246, 33);
             this.btnCargaArtSoftRe.TabIndex = 17;
-            this.btnCargaArtSoftRe.Text = "Carga Artículos de SoftRestaurant";
+            this.btnCargaArtSoftRe.Text = "Carga Productos de SoftRestaurant";
             this.btnCargaArtSoftRe.UseVisualStyleBackColor = true;
             this.btnCargaArtSoftRe.Click += new System.EventHandler(this.btnCargaArtSoftRe_Click);
             // 
@@ -152,7 +152,7 @@
             this.btnCargaArti.Name = "btnCargaArti";
             this.btnCargaArti.Size = new System.Drawing.Size(135, 33);
             this.btnCargaArti.TabIndex = 16;
-            this.btnCargaArti.Text = "Carga Artículos";
+            this.btnCargaArti.Text = "Carga Productos";
             this.btnCargaArti.UseVisualStyleBackColor = true;
             this.btnCargaArti.Click += new System.EventHandler(this.btnCargaArti_Click);
             // 
